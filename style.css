@@ -277,11 +277,17 @@ button:hover {
 }
 
 @media screen and (max-width:600px) {
+  body{
+    height: auto;
+    display: block;
+    padding: 20px;
+  }
   section {
     display: flex;
     flex-direction: column;
     background: var(--whiteColor);
-    width: 100%;
+    width: 90%;
+    max-width: 330px;
     height: auto;
     display: flex;
     border-radius: 20px;
