@@ -288,6 +288,7 @@ button:hover {
     background: var(--whiteColor);
     width: 90%;
     max-width: 330px;
+    margin: 0 auto:
     height: auto;
     display: flex;
     border-radius: 20px;
